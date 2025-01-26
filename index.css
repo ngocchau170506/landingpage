@@ -82,7 +82,7 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-.taskbar-fixed-top .taskbar-nav li a.discover-button:hover {
+.taskbar-fixed-top .taskbar-nav>li>a.discover-button:hover {
     color: #e52f37;
     background: transparent;
     border: 1px solid #e52f37;
@@ -606,7 +606,7 @@ input.white-input,
 select.white-input {
     color: #656565;
 }
-.partners {
+.partners-section {
     padding: 40px 0 20px 0;
     background-color: #fff;
 }
@@ -1385,7 +1385,7 @@ ul.benefits.white li i {
     ul.social-media li a i {
         margin: 0 8px;
     }
-    .partners {
+    .partners-section {
         padding: 40px 0;
     }
     .partners {
@@ -1839,7 +1839,7 @@ hr {
     	ul.social-media li a i {
 	    margin: 0 8px!important;
 	}
-    	.partners {
+    	.partners-section {
 	    padding: 40px 0;
 	}
     	.partners{
@@ -1891,7 +1891,6 @@ hr {
     border: 1px solid transparent;
     border-radius:5px
 }
-.taskbar-tgl:focus,
 .taskbar-tgl:hover {
     text-decoration: none
 }
